@@ -1,4 +1,19 @@
 ---
 label: Listing
 hide_body: false
-fields: []
+fields:
+- name: name
+  type: text
+  config:
+    required: false
+  label: Name
+  description: Business Name
+- name: fffffff
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: pages
+  label: fffffff
